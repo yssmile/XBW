@@ -100,6 +100,8 @@
 		1794AA6119AF2821004D0600 /* TimeLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1794AA6019AF2821004D0600 /* TimeLocation.m */; };
 		1794AA6419AF28A1004D0600 /* FoodInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1794AA6319AF28A1004D0600 /* FoodInfo.m */; };
 		1794AA6719AF295F004D0600 /* OrderRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1794AA6619AF295F004D0600 /* OrderRecord.m */; };
+		17C7C1E119B0773300043F63 /* TimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7C1DF19B0773300043F63 /* TimelineCell.m */; };
+		17C7C1E219B0773300043F63 /* TimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C7C1E019B0773300043F63 /* TimelineCell.xib */; };
 		17CC971819A47F8C00F2BB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CC971719A47F8C00F2BB08 /* Foundation.framework */; };
 		17CC971A19A47F8C00F2BB08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CC971919A47F8C00F2BB08 /* CoreGraphics.framework */; };
 		17CC971C19A47F8C00F2BB08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CC971B19A47F8C00F2BB08 /* UIKit.framework */; };
@@ -166,6 +168,13 @@
 		17F53E1F19A5EEDA00659346 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F53E1D19A5EEDA00659346 /* LoginViewController.xib */; };
 		17F53E2419A5F13700659346 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F53E2219A5F13700659346 /* RegisterViewController.m */; };
 		17F53E2519A5F13700659346 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F53E2319A5F13700659346 /* RegisterViewController.xib */; };
+		17F5424919B1975F003F404F /* LimitTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5424719B1975F003F404F /* LimitTimeCell.m */; };
+		17F5424A19B1975F003F404F /* LimitTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F5424819B1975F003F404F /* LimitTimeCell.xib */; };
+		17F5424D19B1984C003F404F /* OrderedFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5424C19B1984C003F404F /* OrderedFood.m */; };
+		17F5425119B198DB003F404F /* OrderedFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5424F19B198DB003F404F /* OrderedFoodCell.m */; };
+		17F5425219B198DB003F404F /* OrderedFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F5425019B198DB003F404F /* OrderedFoodCell.xib */; };
+		17F5425519B19954003F404F /* UITableViewCell+SeparateLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5425419B19954003F404F /* UITableViewCell+SeparateLine.m */; };
+		17F5425819B1C1D6003F404F /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5425719B1C1D6003F404F /* BaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -362,6 +371,9 @@
 		1794AA6319AF28A1004D0600 /* FoodInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodInfo.m; sourceTree = "<group>"; };
 		1794AA6519AF295F004D0600 /* OrderRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderRecord.h; sourceTree = "<group>"; };
 		1794AA6619AF295F004D0600 /* OrderRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderRecord.m; sourceTree = "<group>"; };
+		17C7C1DE19B0773300043F63 /* TimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineCell.h; sourceTree = "<group>"; };
+		17C7C1DF19B0773300043F63 /* TimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineCell.m; sourceTree = "<group>"; };
+		17C7C1E019B0773300043F63 /* TimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineCell.xib; sourceTree = "<group>"; };
 		17CC971419A47F8C00F2BB08 /* XBW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC971719A47F8C00F2BB08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17CC971919A47F8C00F2BB08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -468,6 +480,18 @@
 		17F53E2119A5F13700659346 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		17F53E2219A5F13700659346 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		17F53E2319A5F13700659346 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		17F5424619B1975F003F404F /* LimitTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitTimeCell.h; sourceTree = "<group>"; };
+		17F5424719B1975F003F404F /* LimitTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitTimeCell.m; sourceTree = "<group>"; };
+		17F5424819B1975F003F404F /* LimitTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LimitTimeCell.xib; sourceTree = "<group>"; };
+		17F5424B19B1984C003F404F /* OrderedFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedFood.h; sourceTree = "<group>"; };
+		17F5424C19B1984C003F404F /* OrderedFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedFood.m; sourceTree = "<group>"; };
+		17F5424E19B198DB003F404F /* OrderedFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedFoodCell.h; sourceTree = "<group>"; };
+		17F5424F19B198DB003F404F /* OrderedFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedFoodCell.m; sourceTree = "<group>"; };
+		17F5425019B198DB003F404F /* OrderedFoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderedFoodCell.xib; sourceTree = "<group>"; };
+		17F5425319B19954003F404F /* UITableViewCell+SeparateLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SeparateLine.h"; sourceTree = "<group>"; };
+		17F5425419B19954003F404F /* UITableViewCell+SeparateLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SeparateLine.m"; sourceTree = "<group>"; };
+		17F5425619B1C1D6003F404F /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		17F5425719B1C1D6003F404F /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -553,9 +577,22 @@
 		1749088F19A6F6E8009647E6 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				17F5425619B1C1D6003F404F /* BaseTableViewCell.h */,
+				17F5425719B1C1D6003F404F /* BaseTableViewCell.m */,
 				1749089019A6F701009647E6 /* AddInfoCell.h */,
 				1749089119A6F701009647E6 /* AddInfoCell.m */,
 				1749089219A6F701009647E6 /* AddInfoCell.xib */,
+				17C7C1DE19B0773300043F63 /* TimelineCell.h */,
+				17C7C1DF19B0773300043F63 /* TimelineCell.m */,
+				17C7C1E019B0773300043F63 /* TimelineCell.xib */,
+				17F5424619B1975F003F404F /* LimitTimeCell.h */,
+				17F5424719B1975F003F404F /* LimitTimeCell.m */,
+				17F5424819B1975F003F404F /* LimitTimeCell.xib */,
+				17F5424E19B198DB003F404F /* OrderedFoodCell.h */,
+				17F5424F19B198DB003F404F /* OrderedFoodCell.m */,
+				17F5425019B198DB003F404F /* OrderedFoodCell.xib */,
+				17F5425319B19954003F404F /* UITableViewCell+SeparateLine.h */,
+				17F5425419B19954003F404F /* UITableViewCell+SeparateLine.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -593,6 +630,8 @@
 				1794AA6319AF28A1004D0600 /* FoodInfo.m */,
 				1794AA6519AF295F004D0600 /* OrderRecord.h */,
 				1794AA6619AF295F004D0600 /* OrderRecord.m */,
+				17F5424B19B1984C003F404F /* OrderedFood.h */,
+				17F5424C19B1984C003F404F /* OrderedFood.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -1132,6 +1171,7 @@
 				17E4506E19A832BD001D4C9E /* forget_psd_tel.png in Resources */,
 				177A423219A6EAA80025CDED /* appoint_tabbar_btn_sel.png in Resources */,
 				177A422B19A6E8C00025CDED /* order_tabbar_btn_nor.png in Resources */,
+				17F5424A19B1975F003F404F /* LimitTimeCell.xib in Resources */,
 				17F1419119AD92BF00CB12D3 /* order_food_order.png in Resources */,
 				17E4506D19A832BD001D4C9E /* forget_psd_reset_btn.png in Resources */,
 				177A422819A6E8C00025CDED /* expressage_tabbar_btn_nor.png in Resources */,
@@ -1145,6 +1185,7 @@
 				17E4506C19A832BD001D4C9E /* forget_psd_code.png in Resources */,
 				1727101D19AD95C500D6B4B7 /* common_user.png in Resources */,
 				17F1417F19AD723C00CB12D3 /* order_food_alwaysOrder_sel.png in Resources */,
+				17C7C1E219B0773300043F63 /* TimelineCell.xib in Resources */,
 				17E4506A19A832BD001D4C9E /* common_back_btn.png in Resources */,
 				17F1418319AD723C00CB12D3 /* order_food_dinner_sel.png in Resources */,
 				17F1418119AD723C00CB12D3 /* order_food_breakfast_sel.png in Resources */,
@@ -1160,6 +1201,7 @@
 				17F1417E19AD723C00CB12D3 /* order_food_alwaysOrder_nor.png in Resources */,
 				17F1418419AD723C00CB12D3 /* order_food_lunch_nor.png in Resources */,
 				17F1418819AD723C00CB12D3 /* order_food_lunch_sel.png in Resources */,
+				17F5425219B198DB003F404F /* OrderedFoodCell.xib in Resources */,
 				17F1418019AD723C00CB12D3 /* order_food_breakfast_nor.png in Resources */,
 				177A423519A6EAA80025CDED /* oder_food_tabbar_btn_sel.png in Resources */,
 				1749089419A6F701009647E6 /* AddInfoCell.xib in Resources */,
@@ -1205,8 +1247,10 @@
 				1794AA5919AED389004D0600 /* UIView+LoadData.m in Sources */,
 				17E4508519A83CAD001D4C9E /* AFHTTPSessionManager.m in Sources */,
 				1749089D19A71A4D009647E6 /* BaseTableViewController.m in Sources */,
+				17C7C1E119B0773300043F63 /* TimelineCell.m in Sources */,
 				17E4508A19A83CAD001D4C9E /* AFURLResponseSerialization.m in Sources */,
 				17E4508319A83CAD001D4C9E /* AFHTTPRequestOperation.m in Sources */,
+				17F5424D19B1984C003F404F /* OrderedFood.m in Sources */,
 				1727104419ADB5EF00D6B4B7 /* UIImage+ImageEffects.m in Sources */,
 				176AC68C19A77E7100DA2B29 /* TransformationMatrix.cpp in Sources */,
 				17CC978019A48F4D00F2BB08 /* UIViewAdditions.m in Sources */,
@@ -1223,6 +1267,7 @@
 				177A41E419A6D8880025CDED /* UIView+WebCacheOperation.m in Sources */,
 				177A41D819A6D8880025CDED /* SDWebImageCompat.m in Sources */,
 				17CC977F19A48F4D00F2BB08 /* UITextField+Shake.m in Sources */,
+				17F5425119B198DB003F404F /* OrderedFoodCell.m in Sources */,
 				176AC68719A77E7100DA2B29 /* POPLayerExtras.mm in Sources */,
 				17CC977B19A48F4D00F2BB08 /* UIImage+RoundedCorner.m in Sources */,
 				177A41D919A6D8880025CDED /* SDWebImageDecoder.m in Sources */,
@@ -1263,6 +1308,7 @@
 				176AC63F19A75E6500DA2B29 /* Address.m in Sources */,
 				1749089819A70999009647E6 /* PaymentController.m in Sources */,
 				176AC68519A77E7100DA2B29 /* POPDecayAnimation.mm in Sources */,
+				17F5425519B19954003F404F /* UITableViewCell+SeparateLine.m in Sources */,
 				1794AA6119AF2821004D0600 /* TimeLocation.m in Sources */,
 				177A41D519A6D8880025CDED /* MKAnnotationView+WebCache.m in Sources */,
 				177A41D619A6D8880025CDED /* NSData+ImageContentType.m in Sources */,
@@ -1270,6 +1316,7 @@
 				177A41E319A6D8880025CDED /* UIImageView+WebCache.m in Sources */,
 				17CC977619A48F4D00F2BB08 /* UIColor+FlatUI.m in Sources */,
 				17CC977D19A48F4D00F2BB08 /* UILabelAdditions.m in Sources */,
+				17F5425819B1C1D6003F404F /* BaseTableViewCell.m in Sources */,
 				177A41DF19A6D8880025CDED /* UIImage+GIF.m in Sources */,
 				1794AA6719AF295F004D0600 /* OrderRecord.m in Sources */,
 				176AC67C19A77E7100DA2B29 /* POPAnimation.mm in Sources */,
@@ -1279,6 +1326,7 @@
 				1794AA6419AF28A1004D0600 /* FoodInfo.m in Sources */,
 				176AC67F19A77E7100DA2B29 /* POPAnimationRuntime.mm in Sources */,
 				1727104C19ADB5EF00D6B4B7 /* M13ProgressViewMetro.m in Sources */,
+				17F5424919B1975F003F404F /* LimitTimeCell.m in Sources */,
 				17CC977819A48F4D00F2BB08 /* UIImage+Alpha.m in Sources */,
 				174908A319A72FDB009647E6 /* FRDLivelyButton.m in Sources */,
 				1727104319ADB5EF00D6B4B7 /* M13ProgressHUD.m in Sources */,

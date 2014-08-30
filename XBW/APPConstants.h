@@ -12,9 +12,11 @@
 #define XBWBaseURL @""
 #define LoginPath @""
 #define RegisterPath @""
+#define MyOrderRecordsPath @""
 
 #define kAppColor kRedColor
 #define kTFBorderColor RGBCOLOR(247,218,215)
+#define kCellLineColor kTFBorderColor
 
 #define kUserID @"userid"
 #define kUsername @"username"
@@ -22,8 +24,8 @@
 #define kPassword @"password"
 #define kLogined  @"logined"
 
-#define kAppLabelFont [UIFont systemFontOfSize:19]
-#define kAppLabelBoldFont  [UIFont boldSystemFontOfSize:19]
-#define kAppInputFont [UIFont systemFontOfSize:18]
-#define kAPPInputBoldFont [UIFont boldSystemFontOfSize:18]
+#define kAppLabelFont [UIFont systemFontOfSize:18]
+#define kAppLabelBoldFont  [UIFont boldSystemFontOfSize:18]
+#define kAppInputFont [UIFont systemFontOfSize:17]
+#define kAPPInputBoldFont [UIFont boldSystemFontOfSize:17]
 

@@ -14,6 +14,5 @@
 @property(nonatomic,copy)NSString *name;
 @property(nonatomic)float price;
 @property(nonatomic)NSInteger allCount;
-@property(nonatomic)NSInteger orderCount;
 
 @end
